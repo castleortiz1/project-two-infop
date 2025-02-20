@@ -18,7 +18,7 @@ Este proyecto es una página web de perfil personal que muestra información sob
 ## Instalación y uso
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone git@github.com:castleortiz1/project-two-infop.git
    ```
 2. Abrir el archivo `index.html` en un navegador.
 3. Modificar `styles.css` para personalizar los estilos si es necesario.
@@ -35,6 +35,6 @@ Si deseas contribuir, puedes hacer un fork del repositorio y enviar un pull requ
 Jonathan Isai Castillo Izaguirre
 
 ## Contacto
-- **Email:** correo@ejemplo.com
-- **GitHub:** [Perfil en GitHub](https://github.com/tu_usuario)
+- **Email:** nahuncasti@gmail.com
+- **GitHub:** [Perfil en GitHub](https://github.com/castleortiz1/project-two-infop)
 
