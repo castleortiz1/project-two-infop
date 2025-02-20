@@ -1,0 +1,82 @@
+/* Fuentes y colores generales */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    background: #111;
+    color: #0ff;
+}
+
+/* Barra lateral */
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+#main {
+    margin-left: 120px;
+}
+
+/* Efecto ciberpunk para títulos */
+h1, h2, h3 {
+    color: #0ff;
+    text-shadow: 0 0 8px #0ff, 0 0 16px #00ffff;
+}
+
+/* Color ciberpunk para texto destacado */
+.text-highlight {
+    color: #00ff6a;
+    font-weight: bold;
+    text-shadow: 0 0 8px #00ff6a, 0 0 16px #00ff6a;
+}
+
+/* Efecto en enlaces */
+a {
+    color: #ff00ff;
+    text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #ffcc00;
+    text-shadow: 0 0 8px #ffcc00, 0 0 16px #ffcc00;
+}
+
+/* Imagen de perfil */
+.profile-img, .header-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0ff;
+    box-shadow: 0 0 15px #0ff, 0 0 30px #00ffff;
+}
+
+.header-img {
+    width: 250px;
+    height: 250px;
+}
+
+/* Barras de habilidades */
+.skill {
+    margin: 15px 0;
+}
+
+.skill-bar {
+    background: linear-gradient(90deg, #ff00ff, #0ff);
+    box-shadow: 0 0 8px #ff00ff, 0 0 16px #0ff;
+    height: 28px;
+    border-radius: 5px;
+}
+
+/* Divider para separar secciones */
+.divider {
+    width: 200px;
+    border-top: 2px solid #00ff6a;
+    margin-bottom: 20px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0;
+    }
+}
